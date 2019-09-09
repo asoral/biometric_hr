@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include biometric_hr *.css
+recursive-include biometric_hr *.csv
+recursive-include biometric_hr *.html
+recursive-include biometric_hr *.ico
+recursive-include biometric_hr *.js
+recursive-include biometric_hr *.json
+recursive-include biometric_hr *.md
+recursive-include biometric_hr *.png
+recursive-include biometric_hr *.py
+recursive-include biometric_hr *.svg
+recursive-include biometric_hr *.txt
+recursive-exclude biometric_hr *.pyc
